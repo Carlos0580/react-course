@@ -21,12 +21,17 @@ function getUser(){
    }
 }
 
-const getUser2 = () => {
-    return{
-        uId: 'ABC-123',
-        username: 'El_papi23'  
-    }
+interface User {
+    uId: string
+    username: string  
 }
+
+const getUser2 = (): User => ({
+    
+    uId: 'ABC-123',
+    username: 'El_papi23'  
+    
+})
 
 const user = getUser();
 const user2 = getUser2();
