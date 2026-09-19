@@ -6,12 +6,11 @@ import './style.css'
 // import './bases/05-functions';
 // import './bases/06-obj-destrcturing';
 // import './bases/07-arr-destructuring';
-import './bases/08-import-export';
+// import './bases/08-import-export';
+import './bases/09-promises';
 
-
-
-import { getHeroesByOwner } from './bases/08-import-export';
-import { Owner } from './data/heroes.data';
+// import { getHeroesByOwner } from './bases/08-import-export';
+// import { Owner } from './data/heroes.data';
 // import './data/heroes.data';
 
 
@@ -21,4 +20,4 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 <h1> React Course ⚛️ </h1>
 </div>`
 
-console.log( getHeroesByOwner(Owner.DC) )
+//console.log( getHeroesByOwner(Owner.DC) )
